@@ -2,7 +2,7 @@ import { Background, Parallax } from 'react-parallax';
 import './Home.css';
 
 const Home = () => (
-    <>
+    <div id='Home'>
         <Parallax className='w-full h-screen ' style={{ backgroundColor: '#37323E' }} strength={800}>
         <Background className='w-full h-screen'>
             <div className="flex ">
@@ -33,7 +33,7 @@ const Home = () => (
         
     </Parallax>
         
-    </>
+    </div>
 );
 
 
