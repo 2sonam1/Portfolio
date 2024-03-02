@@ -8,8 +8,9 @@ export default {
     extend: {
       fontFamily: {
         'sans': ['Titillium Web', 'sans-serif'],
-        'opensans': ['Open Sans']
+        'opensans': ['Open Sans', 'sans-serif']
       },
+      
     },
   },
   plugins: [],

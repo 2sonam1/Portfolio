@@ -27,7 +27,7 @@ function Leetcode() {
         cutout: '90%',
     };
     return (
-        <div className='absolute w-40 left-28 top-72'>
+        <div className='absolute w-40 top-80'>
             <Doughnut
                 data={datas}
                 options={options}
