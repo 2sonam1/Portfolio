@@ -10,7 +10,7 @@ function Leetcode() {
             .then(data => {
                 console.log(data);
                 setData(data);
-                console.log(data.easySolved)
+                // console.log(data.easySolved)
             })
     }, [])
     const datas = {
@@ -27,12 +27,11 @@ function Leetcode() {
         cutout: '90%',
     };
     return (
-        <div className='absolute w-40 top-80'>
+        <div className='absolute w-48 top-80 -right-40'>
             <Doughnut
                 data={datas}
                 options={options}
             >
-
             </Doughnut>
         </div>
     )

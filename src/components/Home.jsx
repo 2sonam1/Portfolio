@@ -8,9 +8,9 @@ const Home = () => (
             <div className="flex ">
                 <div className="w-1/4">
                     <div className="w-56 h-auto m-0  mt-10 pt-10 hidden sm:block" style={{ marginLeft: '-80px' }}>
-                        <img src="/circle-design.png" className='animate-spin' style={{ animationDuration: '5s' }} />
+                        <img src="circle-design.png" className='animate-spin' style={{ animationDuration: '5s' }} />
                         <div className="w-40 h-auto p-0 pl-20" style={{ marginTop: '-120px' }}>
-                            <img src="/left-design.png" />
+                            <img src="left-design.png" />
                         </div>
                     </div>
 
