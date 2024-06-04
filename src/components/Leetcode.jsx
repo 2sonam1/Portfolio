@@ -5,7 +5,7 @@ import 'chart.js/auto';
 function Leetcode() {
     const [data, setData] = useState([]);
     useEffect(() => {
-        fetch('https://leetcodestats.cyclic.app/21sonamrani')
+        fetch('https://leetcode-stats-api.herokuapp.com/21sonamrani')
             .then(response => response.json())
             .then(data => {
                 console.log(data);
@@ -17,7 +17,7 @@ function Leetcode() {
         labels: ['Total', 'Easy', 'Medium', 'Hard'],
         datasets: [{
             label: 'Poll',
-            data: [data.totalQuestions, data.easySolved, data.mediumSolved, data.hardSolved],
+            data: [data.totalSolved, data.easySolved, data.mediumSolved, data.hardSolved],
             backgroundColor: ['#BFBDC1', '#49a078', '#DE9E36', '#ee6055'],
             borderColor: ['#BFBDC1', '#49a078', '#DE9E36', '#ee6055'],
             borderWidth: [0, 3, 3, 3],

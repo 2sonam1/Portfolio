@@ -17,10 +17,10 @@ const Home = () => (
                 </div>
                 <div className="w-1/2">
                     <div className='flex flex-col items-center justify-center pt-40 pl-30 w-full'>
-                        <div className="flex justify-center w-full font-opensans font-normal lg:text-xl md:text-sm sm:text-xs" style={{ letterSpacing: '0.8em', color: '#BFBDC1' }}>SONAM RANI</div>
-                        <div className="flex justify-center w-full font-sans font-black   lg:text-8xl lg:mb-[-25px]   md:text-7xl md:mb-[-20px]   sm:text-7xl sm:mb-[-20px]   text-3xl mb-[-12px] " style={{ color: '#DEB841' }}>ARTIST</div>
-                        <div className="flex justify-center w-full font-sans font-black   lg:text-8xl lg:mb-[-25px]   md:text-7xl md:mb-[-20px]   sm:text-7xl sm:mb-[-20px]   text-3xl mb-[-12px] " style={{ color: '#37323E', WebkitTextStroke: '2px #DEB841' }}>DESIGNER</div>
-                        <div className="flex justify-center w-full font-sans font-black lg:text-8xl md:text-7xl sm:text-7xl text-3xl" style={{ color: '#DEB841' }}>DEVELOPER</div>
+                        <div className="flex justify-center w-full font-opensans font-normal lg:text-xl md:text-sm sm:text-xs text-md" style={{ letterSpacing: '0.8em', color: '#BFBDC1' }}>SONAM RANI</div>
+                        <div className="flex justify-center w-full font-sans font-black   lg:text-8xl lg:mb-[-25px]   md:text-7xl md:mb-[-20px]   sm:text-7xl sm:mb-[-20px]   text-7xl mb-[-12px] " style={{ color: '#DEB841' }}>ARTIST</div>
+                        <div className="flex justify-center w-full font-sans font-black   lg:text-8xl lg:mb-[-25px]   md:text-7xl md:mb-[-20px]   sm:text-7xl sm:mb-[-20px]   text-7xl mb-[-12px] " style={{ color: '#37323E', WebkitTextStroke: '2px #DEB841' }}>DESIGNER</div>
+                        <div className="flex justify-center w-full font-sans font-black lg:text-8xl md:text-7xl sm:text-7xl text-7xl" style={{ color: '#DEB841' }}>DEVELOPER</div>
                     </div>
                 </div>
                 <div className="w-1/4 ">
